@@ -1,4 +1,4 @@
-xrandr --size 1360x768 &
+xrandr --size 1920x1200 &
 sxhkd &
 # picom &
 feh --bg-fill .config/wallpaper.jpg &
