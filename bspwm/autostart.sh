@@ -1,6 +1,16 @@
+#Set resolution
 xrandr --size 1920x1200 &
-sxhkd &
-# picom &
-feh --bg-fill .config/wallpaper.jpg &
-$HOME/.config/polybar/launch.sh &
+
+#Start hotkey daemon
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+#Start picom
+picom --config $HOME/.config/picom/picom.conf &
+
+#Start X wallpaper
+feh --no-fehbg --bg-fill $HOME/.config/wallpaper.jpg &
+
+#Start eww at this point
+
+#Fix mouse cursor
 xsetroot -cursor_name left_ptr &
