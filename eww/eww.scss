@@ -1,0 +1,198 @@
+/* Created   by https://github.com/rxyhn 
+   Designed  by https://github.com/rxyhn
+   Maintaned by https://github.com/rxyhn
+*/
+
+// Global
+*{
+    all: unset;
+  }
+  
+  // Variable Color's
+  $background: #24273a;
+  $foreground: #cad3f5;
+  
+  $black: #181926;
+  $gray: #6e738d;
+  $red: #ed8796;
+  $peach: #f5a97f;
+  $green: #a6da95;
+  $yellow: #eed49f;
+  $blue: #8aadf4;
+  $mauve: #c6a0f6;
+  $teal: #8bd5ca;
+  $white: $foreground;
+  
+  // EWW BAR
+  .eww_bar{
+    background-color: $background;
+    padding: .3rem;
+  }
+  
+  // Launcher
+  .os_icon{
+      color: $teal;
+      font-family: "JetBrainsMono Nerd Font";
+      font-size: 1.7em;
+      padding: 1rem 0 1rem 0;
+  }
+  
+  // Workspaces
+  .works {
+  font-family: "JetBrainsMono Nerd Font";
+  padding: .2rem .7rem .2rem .7rem;
+  background-color: $background;
+  border-radius: 5px;
+  }
+
+  .Home {
+    font-family: "JetBrainsMono Nerd Font";
+    color: $mauve
+  }
+
+  .Firefox {
+    font-family: "JetBrainsMono Nerd Font";
+    color: $peach
+  } 
+
+  .Coding {
+    font-family: "JetBrainsMono Nerd Font";
+    color: $blue
+  } 
+
+  .Gaming {
+    font-family: "JetBrainsMono Nerd Font";
+    color: $red
+  } 
+
+  .Media {
+    font-family: "JetBrainsMono Nerd Font";
+    color: $green
+  } 
+
+  
+  
+  // Control Panel
+  .control {
+  padding: .5rem;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 1.6em;
+  background-color: $background;
+  border-radius: 5px;
+  }
+  .bat{
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 1.2em;
+    padding-right: .5rem;
+    color: $blue;
+  }
+  .wifi-icon{
+    margin-bottom: .2rem;
+    color: $mauve;
+  }
+  .brightness-icon{
+    margin: .2rem 0 .2rem 0;
+    color: $yellow;
+  }
+  .volume-icon{
+    margin: .2rem 0 .2rem 0;
+    color: $green;
+  }
+  scale trough {
+    all: unset;
+    background-color: $background;
+    border-radius: 5px;
+    min-height: 80px;
+    min-width: 10px;
+    margin: .3rem 0 .3rem 0;
+  }
+  .bribar trough highlight {
+    background-color: $yellow;
+    border-radius: 5px;
+  }
+  .volbar trough highlight {
+    background-color: $green;
+    border-radius: 5px;
+  }
+  
+  // Clock
+  .time {
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: $background;
+    color: $white;
+    border-radius: 5px;
+    padding: .7rem 0 .5rem 0;
+    margin: .5rem 0 .5rem 0;
+  }
+  
+  // Calendar
+  .cal-box {
+    background-color: $background;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 1em;
+    font-weight: bold;
+  
+    .cal-inner-box {
+        padding: 1rem 1rem .2rem;
+  
+        .cal {
+            &.highlight {
+                padding: 10rem;
+            }
+  
+            padding: .8rem .25rem 0rem;
+            margin-left: 10px;
+        }
+    }
+  }
+  
+  calendar:selected {
+    color: $blue;
+  }
+  
+  calendar.header {
+  color: $blue;
+  font-weight: bold;
+  }
+  
+  calendar.button {
+  color: $mauve;
+  }
+  
+  calendar.highlight {
+  color: $mauve;
+  font-weight: bold;
+  }
+  
+  calendar:indeterminate {
+  color: $background;
+  }
+  
+  // Powermenu
+  .powermenu {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .button-bspres, .button-reb, .button-lock,
+  .button-quit, .button-off{
+    padding: .5rem .2rem .3rem .2rem;
+  }
+  .button-off{
+    margin-bottom: .5rem;
+    color: $red;
+  }
+  .button-bspres{
+    color: $green;
+  }
+  .button-reb{
+    color: $yellow
+  }
+  .button-quit{
+    color: $mauve;
+  }
+  .button-lock{
+    color: $blue;
+  }
